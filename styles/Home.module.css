@@ -276,3 +276,8 @@
     transform: rotate(0deg);
   }
 }
+
+.map{
+  width: 60%;
+  height: 25rem;
+}
