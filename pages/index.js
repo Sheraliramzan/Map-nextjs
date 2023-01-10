@@ -5,6 +5,8 @@ import Map from '../components/Map'
 import Image from 'next/image'
 import BImage from '../components/Image/image'
 import Header from '../components/Header/header'
+import Footer from '../components/Footer/footer'
+import Footer2 from '../components/Footer/foot2'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +23,8 @@ export default function Home() {
         <Map/>
         <BImage/>
         <Header/>
+        <Footer/>
+        <Footer2/>
       </main>
     </>
   )
